@@ -9,7 +9,7 @@ depends=('cairo' 'desktop-file-utils' 'gdk-pixbuf2' 'glib2' 'gtk3' 'hicolor-icon
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 source_x86_64=("${url}/releases/download/v${pkgver}/Haystack_${pkgver}_amd64.deb")
-sha256sums_x86_64=('6c7ae7d0da9b27595e222246ed092920f1c1866347fe2f9285a632addf9b2414')
+sha256sums_x86_64=('24cdb147e4862fdc13d678a1b94431f191f61440ec3b916c039e67f998c108dc')
 
 package() {
   # Extract package data
