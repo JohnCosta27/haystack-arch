@@ -1,0 +1,26 @@
+pkgbase = haystack
+	pkgdesc = A tool to categorise your screenshots
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://git.johncosta.tech/JohnCosta27/haystack-arch
+	install = haystack.install
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	depends = cairo
+	depends = desktop-file-utils
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libsoup
+	depends = pango
+	depends = webkit2gtk-4.1
+	depends = slurp
+	depends = grim
+	options = !strip
+	options = !emptydirs
+	source_x86_64 = https://git.johncosta.tech/JohnCosta27/haystack-arch/releases/download/v1.0.0/appname_1.0.0_amd64.deb
+	source_aarch64 = https://git.johncosta.tech/JohnCosta27/haystack-arch/releases/download/v1.0.0/appname_1.0.0_arm64.deb
+
+pkgname = haystack

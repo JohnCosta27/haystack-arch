@@ -1,0 +1,12 @@
+pkgname=haystack
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="A tool to categorise your screenshots"
+arch=('x86_64' 'aarch64')
+url="https://git.johncosta.tech/JohnCosta27/haystack-arch"
+license=('MIT')
+depends=('cairo' 'desktop-file-utils' 'gdk-pixbuf2' 'glib2' 'gtk3' 'hicolor-icon-theme' 'libsoup' 'pango' 'webkit2gtk-4.1' 'slurp' 'grim')
+options=('!strip' '!emptydirs')
+install=${pkgname}.install
+source_x86_64=("${url}/releases/download/v${pkgver}/appname_${pkgver}_amd64.deb")
+source_aarch64=("${url}/releases/download/v${pkgver}/appname_${pkgver}_arm64.deb")
