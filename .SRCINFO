@@ -1,8 +1,8 @@
 pkgbase = haystack
 	pkgdesc = A tool to categorise your screenshots
-	pkgver = 1.0.0
+	pkgver = 0.3.0
 	pkgrel = 1
-	url = https://git.johncosta.tech/JohnCosta27/haystack-arch
+	url = https://github.com/JohnCosta27/haystack-arch
 	install = haystack.install
 	arch = x86_64
 	arch = aarch64
@@ -20,7 +20,7 @@ pkgbase = haystack
 	depends = grim
 	options = !strip
 	options = !emptydirs
-	source_x86_64 = https://git.johncosta.tech/JohnCosta27/haystack-arch/releases/download/v1.0.0/appname_1.0.0_amd64.deb
-	source_aarch64 = https://git.johncosta.tech/JohnCosta27/haystack-arch/releases/download/v1.0.0/appname_1.0.0_arm64.deb
+	source_x86_64 = https://github.com/JohnCosta27/haystack-arch/releases/download/v0.3.0/Haystack_0.3.0_amd64.deb
+	sha256sums_x86_64 = 6c7ae7d0da9b27595e222246ed092920f1c1866347fe2f9285a632addf9b2414
 
 pkgname = haystack
