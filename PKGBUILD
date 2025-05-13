@@ -1,5 +1,5 @@
 pkgname=haystack
-pkgver=0.3.0
+pkgver=0.4.0
 pkgrel=1
 pkgdesc="A tool to categorise your screenshots"
 arch=('x86_64' 'aarch64')
@@ -9,7 +9,7 @@ depends=('cairo' 'desktop-file-utils' 'gdk-pixbuf2' 'glib2' 'gtk3' 'hicolor-icon
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 source_x86_64=("${url}/releases/download/v${pkgver}/Haystack_${pkgver}_amd64.deb")
-sha256sums_x86_64=('24cdb147e4862fdc13d678a1b94431f191f61440ec3b916c039e67f998c108dc')
+sha256sums_x86_64=('5065ab26cd732d20153067f5d02e9f03137c68a42d37cbd865a13727b6181c3d')
 
 package() {
   # Extract package data
